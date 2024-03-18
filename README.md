@@ -1,4 +1,4 @@
-# Contab Download
+# contabilidade-install
 
 O ContaUpdater é uma ferramenta que automatiza o processo de baixar e instalar os instaladores mais atualizados para os aplicativos de contabilidade.
 
