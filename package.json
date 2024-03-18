@@ -1,0 +1,22 @@
+{
+  "name": "contabilidade-install",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun index.ts",
+    "build": "bun build index.ts --target bun --compile --outfile=dist/download"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cli-progress": "^3.11.5",
+    "@types/jsdom": "^21.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cli-progress": "^3.12.0",
+    "jsdom": "^24.0.0"
+  }
+}
